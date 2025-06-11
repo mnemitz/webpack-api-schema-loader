@@ -30,14 +30,6 @@ export default function loader(
     dereference: {
       circular: true
     },
-    resolve: {
-      file: {
-        canRead: false, // Disable automatic file resolution
-      },
-      http: {
-        canRead: false, // Disable automatic HTTP resolution
-      }
-    }
   })
     .then(result => {
       // Return the fully resolved schema as a JSON string
