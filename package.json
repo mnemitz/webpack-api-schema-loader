@@ -1,5 +1,5 @@
 {
-  "name": "webpack-api-schema-loader",
+  "name": "api-schema-loader",
   "version": "1.0.0-alpha.1",
   "description": "Load parsed Swagger, OpenAPI and AsyncAPI schemas using Webpack",
   "license": "MIT",
