@@ -1,0 +1,29 @@
+{
+  "name": "webpack-api-schema-loader",
+  "version": "1.0.0",
+  "description": "Load parsed Swagger, OpenAPI and AsyncAPI schemas using Webpack",
+  "license": "MIT",
+  "author": "Matt Nemitz",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "webpack": "^5.88.0"
+  },
+  "devDependencies": {
+    "@types/swagger2openapi": "^7.0.4",
+    "@types/webpack": "^5.28.5",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@apidevtools/json-schema-ref-parser": "^13.0.5",
+    "swagger2openapi": "^7.0.8",
+    "yaml": "^2.8.0"
+  }
+}
