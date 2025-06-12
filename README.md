@@ -17,7 +17,7 @@ npm install openapi-schema-loader
 You can leverage this loader without editing your Webpack config by using the loader prefix:
 
 ```javascript
-import mySchema from "!api-schema-loader!./pet-store.yaml"
+import mySchema from "!openapi-schema-loader!./pet-store.yaml"
 ```
 
 Note: As this loader is an ES Module, it requires Webpack 5.88 or higher.
