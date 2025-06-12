@@ -1,7 +1,7 @@
 {
-  "name": "api-schema-loader",
+  "name": "openapi-schema-loader",
   "version": "1.0.0-alpha.1",
-  "description": "Load parsed Swagger, OpenAPI and AsyncAPI schemas using Webpack",
+  "description": "Load parsed Swagger and OpenAPI schemas using Webpack",
   "license": "MIT",
   "author": "Matt Nemitz",
   "type": "module",
