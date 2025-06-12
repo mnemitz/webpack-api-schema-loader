@@ -10,7 +10,6 @@
   "files": ["dist"],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
     "lint": "biome check .",
     "lint:fix": "biome check . --write"
   },
