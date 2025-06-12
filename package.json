@@ -7,17 +7,18 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "lint": "biome check .",
+    "lint:fix": "biome check . --write"
   },
   "peerDependencies": {
     "webpack": "^5.88.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@types/swagger2openapi": "^7.0.4",
     "@types/webpack": "^5.28.5",
     "typescript": "^5.8.3"
